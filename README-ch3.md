@@ -11,17 +11,13 @@ The goal is to learn some programming fundamentals by messing around with some e
 
 _NB: The numbered instructions below are only slightly modified from Montfort's, which begin on page 33. My variations will appear in bold._
 
-1. Go to **[nickm.com/memslam/a_house_of_dust.html](https://nickm.com/memslam/a_house_of_dust.html), where Montfort has recreated a 1967 script by Alison Knowles and James Tenney. Watch for a minute to see how the page works.**
+1. Go to **[https://codeberg.org/nickmontfort/memslam/src/branch/main/the_house_of_dust.html](https://codeberg.org/nickmontfort/memslam/src/branch/main/the_house_of_dust.html)**, where Montfort has recreated a 1967 script by Alison Knowles and James Tenney. Use the download button <span class="btn-octicon" data-tooltip-content="Download file" aria-label="Download file"><svg viewBox="0 0 16 16" class="svg octicon-download" aria-hidden="true" width="16" height="16"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"></path><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06z"></path></svg></span> to save the file to your own computer. <figure><img src="img/download-button.png"></figure>
 
-2. **Right-click to select** Page Source or View Source so that you see the HTML (which includes the JavaScript). In Firefox, this can be done with Ctrl-U (or on the Mac, ⌘-Option-U), or you can locate the option in the menu, sometimes under Tools > Web Developer. All browsers have a similar option.
+2. Double-click the html file you downloaded in step 1 and it will open in your browser. Watch for a minute to see how the page works.
 
-3. Select all, usually done with Ctrl-A (or on the Mac, ⌘-A).
+3. Now open the file in your text editor. You can do this in a few ways: use File > Open; right-click the file and use Open With...; or drag and drop it into an open text editor window.
 
-4. Copy, usually done with Ctrl-C (or on the Mac, ⌘-C).
-
-5. Open your text editor. Paste all of the HTML into the text editor with Ctrl-V (Mac: ⌘-V).
-
-6. Save that file **to your dsam-montfort-03 repository folder. Give the file a name like _'house-of-%name%.html'_, replacing '%name%' with your first name. There should be no spaces, no apostrophes, and no percent symbols in the filename.**
+4. Use File > Save As to make a copy of the file with a new name like _'house-of-%name%.html'_, replacing '%name%' with your first name. There should be no spaces, no apostrophes, and no percent symbols in the filename.**
     * If your operating system is configured to conceal file extensions from you, this is a great time to turn that off so you can see the `.html` that indicates a Web page and, later on, the `.py` that indicates a Python file, not to mention the extensions that indicate text files and different types of image files. All the GNU/Linux distributions I know about show the extensions by default. If you use Mac OS X, the option to show file extensions can be reached by clicking on the desktop to activate the Finder and then selecting Finder > Preferences > Advanced. On Windows, open the File Explorer and look at the View tab.
 
 Find the file in your computer's system (e.g. Finder on Mac, or Explorer on Windows), and double-click to open it. If it has the `.html` extension, it should appear in your default web browser, but instead of having an `http://` address, it'll be under something like `file:///`. Why? Because you're not transferring data across the internet, so you don't need to use a HyperText Transfer Protocol.
